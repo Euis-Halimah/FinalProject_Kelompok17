@@ -190,9 +190,9 @@ default_args = {
 
 # Mendefinisikan DAG dengan atribut yang sudah ditentukan
 dag = DAG(
-    "ingest_data_to_postgres",                      
+    "ETL",                      
     default_args=default_args,              
-    description="Ingest Data To Postgres",  
+    description="ETL Kelompok 17",  
     schedule_interval="@once",              
     start_date=datetime(2023, 1, 1),        
     catchup=False,                          
